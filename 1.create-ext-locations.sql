@@ -75,6 +75,6 @@ WITH (STORAGE CREDENTIAL `databrickscourse-ext-storage-credential`)
 
 -- COMMAND ----------
 
-CREATE EXTERNAL LOCATION IF NOT EXISTS databrickscourseucextdl_silver
+CREATE EXTERNAL LOCATION IF NOT EXISTS databrickscourseucextdl_gold
 URL 'abfss://gold@stdatabrickscourseextdl.dfs.core.windows.net' 
 WITH (STORAGE CREDENTIAL `databrickscourse-ext-storage-credential`)
